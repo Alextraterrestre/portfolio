@@ -1,5 +1,6 @@
 import Image from "next/image";
 import styles from "./page.module.css";
+import ContactIcon from "./icons/ContactIcon";
 
 export default function Home() {
   return (
@@ -18,6 +19,9 @@ export default function Home() {
             To get started, edit the{" "}
             <code className={styles.code}>page.tsx</code> file.
           </h1>
+          <h2>contactez-moi
+            <ContactIcon />
+          </h2>
           <p>
             Looking for a starting point or more instructions? Head over to{" "}
             <a

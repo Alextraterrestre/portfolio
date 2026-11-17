@@ -47,3 +47,24 @@ a {
     color-scheme: dark;
   }
 }
+
+/* Breakpoint Desktop */
+@media screen and (max-width > 1440) {
+  body {
+    padding: 64px;
+  }
+}
+
+/* Breakpoint tablet */
+@media screen and (max-width > 1280) {
+  body {
+    padding: 32px;
+  }
+}
+
+/* Breakpoint mobile */
+@media screen and (max-width > 768) {
+  body {
+    padding: 16px;
+  }
+}
